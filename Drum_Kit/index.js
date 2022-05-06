@@ -5,32 +5,32 @@ buttons[0].addEventListener('click',()=>{
 
 })
 buttons[1].addEventListener('click',()=>{
-    var audio = new Audio('sounds/kick-bass.mp3');
+    var audio = new Audio('./sounds/kick-bass.mp3');
          audio.play();
 
 })
 buttons[2].addEventListener('click',()=>{
-    var audio = new Audio('sounds/snare.mp3');
+    var audio = new Audio('./sounds/snare.mp3');
          audio.play();
 
 })
 buttons[3].addEventListener('click',()=>{
-    var audio = new Audio('sounds/tom-1.mp3');
+    var audio = new Audio('./sounds/tom-1.mp3');
          audio.play();
 
 })
 buttons[4].addEventListener('click',()=>{
-    var audio = new Audio('sounds/tom-2.mp3');
+    var audio = new Audio('./sounds/tom-2.mp3');
          audio.play();
 
 })
 buttons[5].addEventListener('click',()=>{
-    var audio = new Audio('sounds/tom-3.mp3');
+    var audio = new Audio('./sounds/tom-3.mp3');
          audio.play();
 
 })
 buttons[6].addEventListener('click',()=>{
-    var audio = new Audio('sounds/tom-4.mp3');
+    var audio = new Audio('./sounds/tom-4.mp3');
          audio.play();
 
 })
